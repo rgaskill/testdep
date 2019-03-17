@@ -3,21 +3,15 @@
 
 [[projects]]
   branch = "master"
-  digest = "1:6e27bc8611ef291be0b9d5f6a3a7718a1aef3cf5d43807c5460cbe770fd25df2"
+  digest = "1:f6779077611cfac91634a8a28d703bfe9e8dcd20c70a42172bb7c79db0930bbf"
   name = "github.com/rgaskill/ignoreme"
-  packages = [
-    "nothing",
-    "something",
-  ]
+  packages = ["something"]
   pruneopts = "UT"
   revision = "aba8f4b25d8e3239d96c8779df71a93f6260f72b"
 
 [solve-meta]
   analyzer-name = "dep"
   analyzer-version = 1
-  input-imports = [
-    "github.com/rgaskill/ignoreme/nothing",
-    "github.com/rgaskill/ignoreme/something",
-  ]
+  input-imports = ["github.com/rgaskill/ignoreme/something"]
   solver-name = "gps-cdcl"
   solver-version = 1
